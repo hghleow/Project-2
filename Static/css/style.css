@@ -6,7 +6,7 @@
     width: 100vw;
 }
 
-.login, .rocket-wrapper {  
+.left-login-wrapper, .right-login-wrapper {  
     display: flex;
     justify-content: center;  
     align-items: center;
@@ -14,26 +14,20 @@
     width: 50vw;
 }
 
-.login {
-    background-color: #2f3640;
+.right-login-wrapper {
+    background-color: #34495e;
 }
 
-.rocket-wrapper {
+.left-login-wrapper {
     background-color: #fbc531;
+    flex-direction: column;
 }
 
-#todo-description {
-    display: block;
+#rocket-img {
+    transform: rotate(-45deg) scale(0.395);
 }
 
-#rocket {
-    display: block;
-    transform: rotate(315deg);
-    width: 50vw;
-    height: 233px;
-}
-
-.login-label {
+.login-form-labels {
     color: #f5f6fa;
 }
 
