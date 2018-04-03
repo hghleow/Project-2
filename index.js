@@ -24,6 +24,8 @@ app.use(
   })
 );
 
+app.use("/api/users", require("./controllers/user"));
+
 // root dir
 app.get("/", (req, res) => {
   res.render("home", {
@@ -37,9 +39,6 @@ app.get("/login", (req, res) => {
   res.render("login", {
     title: "TooDoo | Login"
   });
-});
-
-app.post("/authenticate", (request, response) => {
 });
 
 app.listen(3000);
