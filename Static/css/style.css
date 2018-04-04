@@ -24,7 +24,14 @@
 }
 
 #rocket-img {
-    transform: rotate(-45deg) scale(0.395);
+    transform: scale(0.8) translate(-19px, -25px);
+    width: 80%;
+    height: 50%;
+}
+
+#rocket-img img {
+    display: block;
+    width: 100%;
 }
 
 .login-form-labels {
